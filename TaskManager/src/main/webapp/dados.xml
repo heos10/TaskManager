@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conta>
+<utilizador>
+	<username>pedroafonsodias@ua.pt</username>
+	<password>pedrodias</password>
+	<imagem>eu.jpg</imagem>
+	<nome>Pedro</nome>
+	<apelido>Dias</apelido>
+	<curso>Tecnologias e Sistemas de Informação</curso>
+</utilizador>
+<receber>
+	<mail>
+		<origem>htz@ua.pt</origem>
+		<destino>pedroafonsodias@ua.pt</destino>
+		<data>
+			<dia>29</dia>
+			<mes>10</mes>
+			<ano>2013</ano>
+		</data>
+		<assunto>Entrega do Trabalho de TPW</assunto>
+		<mensagem>
+			A entrega do trabalho é até ao dia 31 de Outubro.
+		</mensagem>
+		<anexos>
+			<anexo>
+				<nome>Elearning@UA</nome>
+				<url>http://elearning.ua.pt</url>
+			</anexo>
+		</anexos>
+	</mail>
+	<mail>
+		<origem>hugosoares@ua.pt</origem>
+		<destino>pedroafonsodias@ua.pt</destino>
+		<data>
+			<dia>10</dia>
+			<mes>10</mes>
+			<ano>2013</ano>
+		</data>
+		<assunto>Bem Vindo</assunto>
+		<mensagem>
+			Como vai o trabalho de Tecnologias e Programação Web?&lt;br&gt;
+			Eu já fiz a parte do formulário offline.&lt;br&gt;
+			Combinamos para logo um encontro?&lt;br&gt;
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ultricies tellus. Aenean varius nec justo id gravida. Nulla eget lobortis lacus, vitae aliquet libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque a diam vel augue sagittis sollicitudin. Etiam aliquam sollicitudin erat vel tempus. In pellentesque imperdiet malesuada. Pellentesque vitae est eget justo ultricies mattis sed sed eros. Morbi in nisl mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec pretium viverra elementum. Nullam eu dui hendrerit, hendrerit turpis ut, sodales turpis. Suspendisse commodo ipsum eget facilisis molestie. Donec facilisis adipiscing nulla.
+&lt;br&gt;
+Mauris varius et sapien vel sodales. Proin dignissim in purus et tincidunt. Fusce sollicitudin massa ac elit aliquet, porta molestie diam sollicitudin. Proin scelerisque libero massa, eget posuere dolor mollis quis. Ut condimentum ante vitae vestibulum tincidunt. In hac habitasse platea dictumst. Duis consectetur nisi justo. Vivamus eget tristique ligula. Nunc vitae orci eu neque venenatis sagittis eu ac odio. Vivamus scelerisque ante a felis pellentesque congue. Nam bibendum elementum hendrerit. Integer facilisis augue ac neque consequat sodales. In tortor leo, rhoncus quis eros nec, lobortis commodo lectus. In id sapien sed urna mattis blandit. Vivamus ultricies elementum commodo.
+&lt;br&gt;
+Etiam fringilla est facilisis risus dictum elementum. Proin rhoncus adipiscing rhoncus. Mauris convallis, ipsum ut elementum auctor, nunc augue aliquet turpis, non convallis diam lorem in tellus. Morbi venenatis mi ipsum, at condimentum sem tincidunt eu. Aliquam volutpat non felis quis rutrum. Aenean euismod pellentesque lacus, at semper ligula vehicula et. Sed dignissim, nibh nec sollicitudin placerat, mi felis euismod ligula, non vulputate libero ante sit amet risus.
+&lt;br&gt;
+Ut sodales justo sit amet ante congue, et rhoncus orci vehicula. Vivamus mi orci, porttitor quis gravida nec, semper id tortor. Curabitur quis mi at nisi ornare sagittis non eget eros. Sed sagittis, nisi ac facilisis semper, dui nisi varius nibh, id cursus nulla turpis sit amet lorem. Sed fringilla leo sit amet suscipit rutrum. Donec venenatis dapibus nulla, eu imperdiet erat fermentum non. Donec aliquet sem quis tellus egestas feugiat. Phasellus non nisi ante.
+&lt;br&gt;
+Cras auctor nunc justo, id ullamcorper lacus rhoncus vitae. Sed rhoncus venenatis sodales. Mauris id neque turpis. Vivamus adipiscing felis sit amet metus ullamcorper scelerisque. In sapien sapien, ultrices vel venenatis vel, adipiscing eu nisi. Pellentesque urna tellus, ornare sed sem et, condimentum gravida lacus. Proin gravida blandit quam ac euismod. Quisque a dolor feugiat, sagittis est a, ornare lacus. Quisque in risus tincidunt, pulvinar felis et, aliquam odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis lorem odio, ac porta justo dignissim non. Morbi purus risus, facilisis vitae adipiscing at, dapibus in orci. Quisque blandit molestie elit, quis dignissim massa gravida ac. Donec venenatis porttitor dapibus. Vivamus non nibh quis velit egestas vestibulum in nec tortor. Proin placerat orci lorem, eu porta quam venenatis vel. 
+&lt;br&gt;
+
+
+		</mensagem>
+		<anexos>
+			<anexo>
+				<nome>Guião</nome>
+				<url>tpw.tp1.pdf</url>
+			</anexo>
+			<anexo>
+				<nome>Página da UA</nome>
+				<url>http://www.ua.pt</url>
+			</anexo>
+		</anexos>
+	</mail>
+	<mail>
+		<origem>secretaria@ua.pt</origem>
+		<destino>pedroafonsodias@ua.pt</destino>
+		<data>
+			<dia>9</dia>
+			<mes>10</mes>
+			<ano>2013</ano>
+		</data>
+		<assunto>Novo E-mail da UA</assunto>
+		<mensagem>
+			Teste ao WebApp de E-mail da Universidade de Aveiro
+		</mensagem>
+		<anexos>
+			<anexo>
+				<nome>Anexo1</nome>
+				<url>anexo1.pdf</url>
+			</anexo>
+		</anexos>
+	</mail>
+</receber>
+<enviados>
+	<mail>
+		<origem>pedroafonsodias@ua.pt</origem>
+		<destino>hugosoares@ua.pt</destino>
+				<data>
+			<dia>10</dia>
+			<mes>10</mes>
+			<ano>2013</ano>
+		</data>
+		<assunto>Enviei-te</assunto>
+		<mensagem>
+			Teste ao WebApp de E-mail da Universidade de Aveiro
+		</mensagem>
+		<anexos>
+			<anexo>
+				<nome>Anexo1</nome>
+				<url>anexo1.pdf</url>
+			</anexo>
+		</anexos>
+	</mail>
+</enviados>
+<rascunhos>
+		<mail>
+		<origem>pedroafonsodias@ua.pt</origem>
+		<destino>sas@ua.pt</destino>
+		<data>
+			<dia>10</dia>
+			<mes>10</mes>
+			<ano>2013</ano>
+		</data>
+		<assunto>Rascunho</assunto>
+		<mensagem>
+			Teste ao WebApp de E-mail da Universidade de Aveiro
+		</mensagem>
+		<anexos>
+			<anexo>
+				<nome>Anexo1</nome>
+				<url>anexo1.pdf</url>
+			</anexo>
+		</anexos>
+	</mail>
+</rascunhos>
+<contactos>
+		<pessoa>
+			<foto>utilizador.gif</foto>
+			<nome>Diogo</nome>
+			<apelido>Gomes</apelido>
+			<mail>diogo.gomes@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>utilizador.gif</foto>
+			<nome>Hélder</nome>
+			<apelido>Zagalo</apelido>
+			<mail>htz@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>utilizador.gif</foto>
+			<nome>Hugo</nome>
+			<apelido>Correia</apelido>
+			<mail>hugo.correia@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>hugos.jpg</foto>
+			<nome>Hugo</nome>
+			<apelido>Silva</apelido>
+			<mail>hugomsilva@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>hugo.jpg</foto>
+			<nome>Hugo</nome>
+			<apelido>Soares</apelido>
+			<mail>hugosoares@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>utilizador.gif</foto>
+			<nome>Joao</nome>
+			<apelido>Pedrosa</apelido>
+			<mail>jp@ua.pt</mail>
+		</pessoa>
+		<pessoa>
+			<foto>utilizador.gif</foto>
+			<nome>Rafael</nome>
+			<apelido>Coimbra</apelido>
+			<mail>rafa@ua.pt</mail>
+		</pessoa>
+</contactos>
+</conta>

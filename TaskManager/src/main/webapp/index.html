@@ -1,10 +1,27 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<head>
+<script type="text/javascript" src="functions.js"></script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" type="image/png" href="logoUAsolo.png">
+<title>WebMail </title>
+</head>
+<body onload="lerFicheiroXML(0)" class="green">
+<div id="header">
+<span class="right"><a href="registar.html" class="utilizador" id="utilizador" onclick="">Registar</a></span>
+<h1 class="titulo" id='titulo'>WebMail UA</h1>
+<img class="imagem_header"src="logoUAsolo.png">
+</div>
+<div id="formulario_pag_inicial">
+<form method="POST" action="principal.html" onsubmit="return verifica_user()">
+<table class='login'>
+<tr>
+<td class='label_login'><label for="email">Utilizador Universal:</label></td><td><input name='email' id='email' class='login' required type="mail"></td></tr><tr><td class='label_login'>
+<label for='password'>Palavra-passe:</label></td><td><input name='pasword' id='password' class='login' required type="password"></td></tr>
+<tr><td></td><td class='botao'><input type='image' src='check_black.png'></td></tr>
+</table>
+</form>
+</div>
+</body>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<script type="text/javascript" src="functions.js"></script>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" type="image/png" href="logoUAsolo.png">
+<title>WebMail </title>
+</head>
+<body onload="lerFicheiroXML(1)">
+<nav> 
+<div id="menu">
+<a href="#" onclick="lista=new Array();lerFicheiroXML(1)"class="menu"><span class="menu">RECEBER</span></a>
+<a href="#" onclick="lista=new Array();lerFicheiroXML(2)"class="menu"><span class="menu">ENVIADOS</span></a>
+<a href="#" onclick="lista=new Array();lerFicheiroXML(3)"class="menu"><span class="menu">RASCUNHOS</span></a>
+<a href="#" onclick="lista=new Array();lerFicheiroXML(4)"class="menu"><span class="menu">CONTACTOS</span></a>
+</div>
+</nav>
+<header><h1 class="titulo" id='titulo'>WebMail UA</h1>
+<span class="utilizador" id="span_imagem"><a href="#" class="utilizador" id="utilizador" onclick="showSettings()"></a></span>
+</header>
+<img src="logoUAsolo.png" id="logo">
+<article>
+<div id="conteudo">
+
+</div>
+</article>
+<footer><div id="rodape"><a href="#" class='green' onclick='showSupportForm()'><img class='rodape' src='questionmark.png'>Sugestoes/Problemas<img class='rodape' src='questionmark.png'></a></div></footer>
+<div id="popup_email"></div>
+<div id="popup"></div>
+</body>
+</html>

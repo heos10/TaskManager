@@ -1,0 +1,374 @@
+body{
+	font-family: DejaVu Sans,Tahoma;
+	width: 100%;
+	height: 100%;
+}
+#logo{
+	float:left;
+	position: absolute;
+	top:2%;
+	left:3%;
+	width:8%;
+	height:14%;
+}
+img.utilizador{
+	position: relative;
+	top:5px;
+	width: 5%;
+	height: 5%;
+}
+textarea.msg{
+	width: 90%;
+	height: 300px;
+	resize:none;
+	border:1px solid lightgray;
+	border-radius: 0px;
+}
+textarea.msg:focus,textarea.msg:active,textarea.msg:hover{
+	width: 90%;
+	height: 300px;
+	resize:none;
+	border:1px solid green;
+	border-radius: 0px;
+}
+textarea.suporte{
+	width: 90%;
+	height: 150px;
+	resize:none;
+	border:1px solid lightgray;
+	border-radius: 0px;
+}
+textarea.suporte:focus,textarea.suporte:active,textarea.suporte:hover{
+	width: 90%;
+	height: 150px;
+	resize:none;
+	border:1px solid green;
+	border-radius: 0px;
+}
+span.utilizador{
+	float:right;
+	vertical-align:middle;
+	color:white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom:10px;
+	height: 40px;
+	padding-left:45px;
+	margin-right: 1%;
+	background-image: url('utilizador.gif');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+span.right{
+	float:right;
+	vertical-align:middle;
+	color:white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom:10px;
+	height: 40px;
+	text-align: right;
+}
+a.menu:active,a.menu:link,a.menu:visited{
+	color:#A5C956; 
+	vertical-align: middle;
+	text-decoration: none;
+
+}
+a.menu:hover{
+	color:white;
+	vertical-align: middle;
+	text-decoration: none;
+}
+a.utilizador:active,a.utilizador:link,a.utilizador:visited{
+	color:white;
+	text-decoration: none;
+}
+a.utilizador:hover{
+	color:white;
+	text-decoration: underline;
+}
+a.green:active,a.green:link,a.green:visited{
+	color:#A5C956;
+	text-decoration: none;
+}
+a.green:hover{
+	color:#A5C956;
+	text-decoration: underline;
+}
+
+#toolbox{
+	border:1px solid gray;
+	background-color: lightgray;
+	display: inline-block;
+	width: 99.8%;
+}
+
+#titulo{
+	position: inherit;
+	left:15%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+a.mail:active,a.mail:visited,a.mail:link{
+	text-decoration: none;
+	color:black;
+}
+a.mail:hover{
+	text-decoration: none;
+	color:white;
+}
+
+h1.titulo{
+	color:white;
+}
+#menu{
+	position:relative;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	top:10%;
+	text-align: center;
+	
+}
+body.green{
+	background-color: #A5C956;
+}
+span.menu{
+	width: 100%;
+	height: 35px;
+	display: inline-block;
+	font-weight: bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+}
+span:hover{
+	background-color:#A5C956; 
+	color:white;
+	text-decoration: none;
+
+}
+.remetente{
+	width:30%;
+}
+input.campos{
+	width:30%;
+}
+input.login{
+	width:70%;
+}
+input{
+	border-radius: 0px;
+	border:1px solid lightgray;
+}
+input:focus,input:hover{
+	border-radius: 0px;
+	border:1px solid green;	
+}
+td.direito{
+	text-align: right;
+	padding-right: 8.75%;
+}
+.assunto{
+	width: 40%;
+}
+.data{
+	width:30%;
+}
+table.login{
+	width: 100%;
+}
+table.novo{
+	width: 100%;
+	min-height:100%;
+	text-align: left;
+}
+td.botao{
+	text-align: right;
+	padding-right: 12%;
+}
+td.label_login{
+	width: 20%;
+}
+td.label{
+	width:10%;
+}
+
+tr.mails{
+	height:20px;
+	border-bottom: none;
+}
+td{
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+td.title{
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+}
+table.mails{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border:none;
+}
+tr.mails:hover{
+	background-color:#A5C956;
+}
+nav{
+	margin-bottom: 5%;
+	width: 15%;
+	position: absolute;
+	top:10%;
+	left:0%;
+	color:black;
+	height:85%;
+	float:left;
+	border-right: 1px solid gray;
+}
+header{
+	padding:0px;
+	float:top;
+	position: absolute;
+	top:0%;
+	left:0%;
+	height:10%;
+	width:100%;
+	background-color: #A5C956;
+	border-bottom: 1px solid gray
+}
+#header{
+	float:top;
+	text-align: center;
+	width:90%;
+	margin:auto;
+}
+img.imagem_header{
+	height:200px;
+}
+#formulario_pag_inicial{
+	float:bottom;
+	width:50%;
+	height: 100%;
+	text-align: center;
+	padding:4%;
+	margin-left: auto;
+	margin-right: auto;
+	border:3px solid gray;
+	background-color: white;
+}
+#formulario_registo{
+	width:50%;
+	height: 100%;
+	text-align: center;
+	padding:4%;
+	margin-left: auto;
+	margin-right: auto;
+	border:3px solid gray;
+	background-color: white;
+}
+footer{
+	left: 0px;
+	margin-left:auto;
+	position: absolute;
+	bottom: 0px;
+	height: 5%;
+	float: bottom;
+	width: 100%;
+	border-top: 1px solid gray
+}
+article{
+	position: absolute;
+	top:10%;
+	left:15%;
+	height: 85%;
+	width:85%;
+	overflow:auto;
+}
+#rodape{
+	width:300px;
+	text-align: center;
+	position:relative;
+	left:50%;
+	margin-left:-150px; 
+}
+img.rodape{
+	width:7%;
+	height:7%;
+}
+#popup{
+    position:absolute;
+    top:50%;
+    left:50%;
+    overflow: auto;
+    background-color: white;
+    width:60%;
+    height:60%;
+    padding: 0.5%;
+    border:3px solid gray;
+    margin:-15% 0 0 -30%;
+    display: none;
+}
+#popup_email{
+    width:80%;
+    height:80%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    overflow: auto;
+    background-color: white;
+    margin:-20% 0 0 -40%;
+    display: none;
+    border:3px solid gray;
+}
+#popup_fechar{
+	
+	position: fixed;
+	right: 10%;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background-image: url('cancel.png');
+	background-repeat: no-repeat;
+}
+#popup_fechar_suporte{
+	
+	position: fixed;
+	right: 20%;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background-image: url('cancel.png');
+	background-repeat: no-repeat;
+}
+#popup_anexo{
+	background-image: url('download.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 48px 48px;
+	padding-left:50px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	border:1px solid gray;
+}
+#search_bar{
+	display: none;
+}
+img.imagem_utilizador{
+	position: inherit;
+	top:15%;
+	left:65%;
+	width:30%;
+	height:75%;
+}
+
